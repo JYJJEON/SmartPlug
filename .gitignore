@@ -1,0 +1,48 @@
+# Logs
+logs/
+*.log
+
+# Node modules
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# Shared workspace (runtime data)
+shared-workspace/tasks/
+shared-workspace/status/
+shared-workspace/messages/
+shared-workspace/reports/
+
+# CEO office (sensitive data)
+ceo-office/inbox/
+ceo-office/approvals/
+ceo-office/decisions/
+
+# Agent workspaces (runtime)
+*-workspace/
+
+# Redis
+dump.rdb
